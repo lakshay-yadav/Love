@@ -1,0 +1,1068 @@
+/* ===========================
+   GOOGLE FONTS
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    overflow:hidden;
+
+    height:100vh;
+
+    background:#050816;
+
+    color:#fff;
+
+    position:relative;
+
+}
+
+/* ===========================
+   ANIMATED BACKGROUND
+=========================== */
+
+.gradient{
+
+    position:fixed;
+
+    inset:0;
+
+    background:linear-gradient(
+        -45deg,
+        #050816,
+        #0c1331,
+        #261447,
+        #08192f
+    );
+
+    background-size:400% 400%;
+
+    animation:gradientMove 18s ease infinite;
+
+    z-index:-5;
+
+}
+
+@keyframes gradientMove{
+
+    0%{background-position:0% 50%;}
+
+    50%{background-position:100% 50%;}
+
+    100%{background-position:0% 50%;}
+
+}
+
+/* ===========================
+   STARS
+=========================== */
+
+.stars{
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:
+
+    radial-gradient(circle,#ffffff 1px,transparent 1px),
+
+    radial-gradient(circle,#ffffff 1px,transparent 1px),
+
+    radial-gradient(circle,#ffffff 1px,transparent 1px);
+
+    background-size:
+
+    120px 120px,
+
+    170px 170px,
+
+    250px 250px;
+
+    opacity:.55;
+
+    animation:twinkle 4s linear infinite;
+
+    z-index:-4;
+
+}
+
+@keyframes twinkle{
+
+    0%,100%{
+
+        opacity:.3;
+
+    }
+
+    50%{
+
+        opacity:.8;
+
+    }
+
+}
+
+/* ===========================
+   MOON
+=========================== */
+
+.moon{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    top:60px;
+
+    right:80px;
+
+    background:
+
+    radial-gradient(circle at 30% 30%,
+    #fff,
+    #ececec 45%,
+    #d5d5d5 70%);
+
+    box-shadow:
+
+    0 0 40px rgba(255,255,255,.5),
+
+    0 0 120px rgba(255,255,255,.15);
+
+    animation:moonFloat 6s ease-in-out infinite;
+
+}
+
+@keyframes moonFloat{
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+}
+
+.glass{
+
+    width:700px;
+
+    max-width:90%;
+
+    text-align:center;
+
+    padding:60px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    box-shadow:
+
+    0 20px 60px rgba(0,0,0,.35),
+
+    0 0 40px rgba(255,105,180,.15);
+
+    animation:cardIn 1.4s ease;
+
+}
+
+@keyframes cardIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+
+.tag{
+
+    color:#ff9ed2;
+
+    letter-spacing:4px;
+
+    font-size:15px;
+
+    text-transform:uppercase;
+
+}
+
+h1{
+
+    font-size:72px;
+
+    margin:25px 0;
+
+    font-family:'Great Vibes',cursive;
+
+    font-weight:normal;
+
+}
+
+h1 span{
+
+    font-size:60px;
+
+}
+
+.description{
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#eeeeee;
+
+    margin-bottom:45px;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    text-decoration:none;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    background:linear-gradient(90deg,#ff4d9e,#ff8fb8);
+
+    color:white;
+
+    font-weight:600;
+
+    font-size:18px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    box-shadow:
+
+    0 10px 30px rgba(255,92,168,.35);
+
+}
+
+.btn::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-120%;
+
+    top:0;
+
+    width:70%;
+
+    height:100%;
+
+    background:rgba(255,255,255,.35);
+
+    transform:skewX(-30deg);
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+
+    0 20px 40px rgba(255,92,168,.45);
+
+}
+
+.btn:hover::before{
+
+    animation:shine .8s;
+
+}
+
+@keyframes shine{
+
+    to{
+
+        left:160%;
+
+    }
+
+}
+
+/* ===========================
+   MUSIC BUTTON
+=========================== */
+
+.music{
+
+    position:fixed;
+
+    top:30px;
+
+    left:30px;
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(255,255,255,.1);
+
+    backdrop-filter:blur(15px);
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+.music:hover{
+
+    transform:rotate(360deg);
+
+    background:#ff5ca8;
+
+}
+
+/* ===========================
+   HEARTS
+=========================== */
+
+.heart{
+
+    position:absolute;
+
+    color:#ff5ca8;
+
+    font-size:26px;
+
+    opacity:.5;
+
+    animation:floatHeart linear infinite;
+
+}
+
+.h1{
+
+    left:10%;
+
+    animation-duration:10s;
+
+}
+
+.h2{
+
+    left:30%;
+
+    animation-duration:15s;
+
+    animation-delay:2s;
+
+}
+
+.h3{
+
+    left:55%;
+
+    animation-duration:12s;
+
+}
+
+.h4{
+
+    left:75%;
+
+    animation-duration:18s;
+
+}
+
+.h5{
+
+    left:90%;
+
+    animation-duration:11s;
+
+}
+
+@keyframes floatHeart{
+
+    from{
+
+        bottom:-80px;
+
+        transform:translateX(0) scale(.8);
+
+    }
+
+    50%{
+
+        transform:translateX(25px) scale(1.1);
+
+    }
+
+    to{
+
+        bottom:110%;
+
+        transform:translateX(-25px);
+
+    }
+
+}
+
+/* ===========================
+   SHOOTING STARS
+=========================== */
+
+.shooting-star{
+
+    position:absolute;
+
+    width:180px;
+
+    height:2px;
+
+    background:linear-gradient(to right,#fff,transparent);
+
+    transform:rotate(-35deg);
+
+    animation:shoot 6s linear infinite;
+
+}
+
+.s1{
+
+    top:120px;
+
+    left:-250px;
+
+}
+
+.s2{
+
+    top:220px;
+
+    left:-450px;
+
+    animation-delay:2s;
+
+}
+
+.s3{
+
+    top:60px;
+
+    left:-700px;
+
+    animation-delay:4s;
+
+}
+
+@keyframes shoot{
+
+    0%{
+
+        transform:translateX(0) rotate(-35deg);
+
+        opacity:0;
+
+    }
+
+    10%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:translateX(1800px) rotate(-35deg);
+
+        opacity:0;
+
+    }
+
+}
+
+/* ===========================
+   SCROLL INDICATOR
+=========================== */
+
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:35px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+.scroll-indicator span{
+
+    display:block;
+
+    width:24px;
+
+    height:40px;
+
+    border:2px solid rgba(255,255,255,.5);
+
+    border-radius:30px;
+
+    position:relative;
+
+}
+
+.scroll-indicator span::before{
+
+    content:"";
+
+    width:6px;
+
+    height:6px;
+
+    border-radius:50%;
+
+    background:white;
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    top:8px;
+
+    animation:scrollAnim 1.5s infinite;
+
+}
+
+@keyframes scrollAnim{
+
+    from{
+
+        opacity:1;
+
+        top:8px;
+
+    }
+
+    to{
+
+        opacity:0;
+
+        top:24px;
+
+    }
+
+}
+
+/* ===========================
+   PARTICLE CANVAS
+=========================== */
+
+#particles{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:-3;
+
+    pointer-events:none;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+    .moon{
+
+        width:110px;
+
+        height:110px;
+
+        right:20px;
+
+        top:20px;
+
+    }
+
+    h1{
+
+        font-size:48px;
+
+    }
+
+    .glass{
+
+        padding:40px 25px;
+
+    }
+
+    .description{
+
+        font-size:17px;
+
+    }
+
+    .btn{
+
+        padding:16px 28px;
+
+    }
+
+}
+
+/* ===========================
+   PASSWORD PAGE
+=========================== */
+
+.password-page{
+
+    display:flex;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    min-height:100vh;
+    
+    padding:25px;
+    
+    overflow:hidden;
+    
+    }
+    
+    .password-card{
+    
+    width:450px;
+    
+    max-width:100%;
+    
+    padding:45px;
+    
+    border-radius:25px;
+    
+    text-align:center;
+    
+    background:rgba(255,255,255,.08);
+    
+    backdrop-filter:blur(20px);
+    
+    border:1px solid rgba(255,255,255,.15);
+    
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+    
+    animation:cardIn 1s;
+    
+    z-index:5;
+    
+    }
+    
+    .lock-icon{
+    
+    width:90px;
+    
+    height:90px;
+    
+    margin:auto;
+    
+    margin-bottom:20px;
+    
+    border-radius:50%;
+    
+    display:flex;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    font-size:40px;
+    
+    background:linear-gradient(45deg,#ff5ca8,#ff9bc9);
+    
+    box-shadow:0 0 30px rgba(255,92,168,.5);
+    
+    animation:pulse 2s infinite;
+    
+    }
+    
+    .password-card h1{
+    
+    font-size:48px;
+    
+    margin-bottom:15px;
+    
+    }
+    
+    .password-card p{
+    
+    color:#ddd;
+    
+    line-height:1.7;
+    
+    }
+    
+    .password-card input{
+    
+    width:100%;
+    
+    margin:30px 0 20px;
+    
+    padding:18px;
+    
+    font-size:18px;
+    
+    border:none;
+    
+    outline:none;
+    
+    border-radius:50px;
+    
+    background:rgba(255,255,255,.1);
+    
+    color:white;
+    
+    text-align:center;
+    
+    }
+    
+    .password-card input::placeholder{
+    
+    color:#bbb;
+    
+    }
+    
+    .password-card button{
+    
+    width:100%;
+    
+    justify-content:center;
+    
+    border:none;
+    
+    cursor:pointer;
+    
+    }
+    
+    .hint{
+    
+    margin-top:20px;
+    
+    font-size:14px;
+    
+    opacity:.8;
+    
+    }
+    
+    .message{
+    
+    margin-top:20px;
+    
+    font-weight:600;
+    
+    font-size:18px;
+    
+    min-height:24px;
+    
+    }
+    
+    .success{
+    
+    color:#74ff9b;
+    
+    }
+    
+    .error{
+    
+    color:#ff8080;
+    
+    }
+    
+    @keyframes pulse{
+    
+    0%,100%{
+    
+    transform:scale(1);
+    
+    }
+    
+    50%{
+    
+    transform:scale(1.08);
+    
+    }
+    
+    }
+    
+    @media(max-width:768px){
+    
+    .password-card{
+    
+    padding:30px 22px;
+    
+    }
+    
+    .password-card h1{
+    
+    font-size:36px;
+    
+    }
+    
+    .lock-icon{
+    
+    width:75px;
+    
+    height:75px;
+    
+    font-size:32px;
+    
+    }
+    
+    }
+
+    /* ===========================
+   ANIMATIONS
+=========================== */
+
+@keyframes gradientMove {
+    
+}
+
+@keyframes twinkle {
+    
+}
+
+@keyframes moonFloat {
+    
+}
+
+@keyframes cardIn {
+    
+}
+
+@keyframes floatHeart {
+    
+}
+
+@keyframes shoot {
+    
+}
+
+@keyframes scrollAnim {
+    
+}
+
+@keyframes pulse {
+    
+}
+
+/* Shake Animation */
+@keyframes shake {
+
+    0%,100%{
+        transform: translateX(0);
+    }
+
+    20%{
+        transform: translateX(-8px);
+    }
+
+    40%{
+        transform: translateX(8px);
+    }
+
+    60%{
+        transform: translateX(-8px);
+    }
+
+    80%{
+        transform: translateX(8px);
+    }
+}
+
+/* ===========================
+   LETTER PAGE
+=========================== */
+
+.letter-page{
+
+    display:flex;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    min-height:100vh;
+    
+    padding:30px;
+    
+    }
+    
+    .letter-card{
+    
+    width:850px;
+    
+    max-width:95%;
+    
+    padding:50px;
+    
+    border-radius:25px;
+    
+    background:rgba(255,255,255,.08);
+    
+    backdrop-filter:blur(18px);
+    
+    border:1px solid rgba(255,255,255,.15);
+    
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+    
+    animation:cardIn 1s;
+    
+    }
+    
+    .letter-title{
+    
+    text-align:center;
+    
+    letter-spacing:4px;
+    
+    color:#ff9ecf;
+    
+    text-transform:uppercase;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .letter-card h1{
+    
+    text-align:center;
+    
+    margin-bottom:40px;
+    
+    }
+    
+    .letter-text{
+    
+    font-size:22px;
+    
+    line-height:2;
+    
+    min-height:260px;
+    
+    color:#f2f2f2;
+    
+    white-space:pre-line;
+    
+    }
+    
+    .next-btn{
+    
+    margin-top:40px;
+    
+    display:inline-flex;
+    
+    }
+    
+    @media(max-width:768px){
+    
+    .letter-card{
+    
+    padding:30px 20px;
+    
+    }
+    
+    .letter-text{
+    
+    font-size:18px;
+    
+    line-height:1.8;
+    
+    min-height:320px;
+    
+    }
+    
+    }
