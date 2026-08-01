@@ -40,44 +40,70 @@ function checkPassword() {
 }
 
 const text = `
-Aur meri jaan, meri biharan kaisi hai?
-Achha ye bta paani peeya ki nhi, Jaa pee ke aa abhi phir aage padhna.
+Aur hamar jaan, hamar biharan kaisan baa? ❤️
 
-Achha sun, Cute to hai tu yr and pagal bhi hai.
-Are ye to love letter hai na to love ki baate krta hu...
+Achha ee bata, paani piyalu ki na? Jaa, abhi jaake paani pi ke aa, phir aage padhih.
 
-Jabse mili na tu tabse life badal gyi hai,
-Aisa lgta hai jaise koi jaadu sa hogya hai, vo 'koi mil gya' wala jaadu nhi magic wala jaadu, I know bad joke tha.
+Achha sun, cute ta baadu hi, aur thoda pagli bhi baadu.
+Are ee ta love letter baa na, ta chala love ke baat kari.
 
-Par tere saath hota hu to time ka pata hi nhi chalta, Jab tere saath nhi hota to tere baare me sochta hu.
-Tere saath har moment aisa lgta hai jaise life is beautiful.
+Jabse tu hamra life me aailu na, tabse sab kuch badal gail baa.
+Aisan lagela jaise koi jaadu ho gail baa. Are uu "Koi Mil Gaya" wala jaadu na, magic wala jaadu. Haan pata baa, joke thoda bakwaas rahal. 😂
 
-Yaad hai kitne nakhre kiye tune milne ke liye, baat krne ke liye but at the end its all worth it. Wo bhi ek part tha hamari story ka and i think that makes our story more beautiful.
+Bakir jab tu saath rahalu na, ta time ke pata hi na chale. Aur jab tu saath na rahalu, ta bas tohre baare me sochat raheeni.
+Tohre saath bitawal har moment aisan lagela jaise life is beautiful.
 
-Mujhe aisa feel hota hai ki m thoda less expressive hu but m tere liye bhot jyada feel krta hu. Aur teri hasi to kamaal hai, fan hai teri hasi ka. 
+Yaad baa na, ketna nakhra kailu milat khatir, baat kare khatir. Bakir end me sab worth it rahal.
+Oo sab bhi ta hamar story ke ek part rahal, aur hamke lagela ki uhe sab hamni ke story ke aur beautiful bana delas.
 
-Man krta hai ki tujhe saamne baitha ke bas dekhta hu(Kiss bhi kr skta hu). 
-Jab ham log first time mile the aisa lga hi nhi ki ham log first time mil rhe hai, lga pta nhi kitne saalo se jaanta hu. 
+Hamke lagela ki ham thoda less expressive bani, bakir ham tohre khatir bahut jyaada feel kareni.
+Aur tohar hasi... uff! Kamaal baa. Ham ta tohar smile ke sabse bada fan bani.
 
-And every moment was so pure and magical, hamare first hand hold se leke hug and kiss tak. Meri heartbeat to yaad hi hogi tujhe kaise fast fast bhaag rhi thi. 
+Man karela ki tohke saamne baitha ke bas dekhat rahi.
+(Kiss bhi kar sakat bani. 😌)
 
-Vo moment jab tune mere shoulder pe sar rakhna, m to pagal hogya tha and yakeen nhi ho rha tha ki ye kya ho rha hai.
-Fir hamari kiss, wow yr kitna shi hai. 
+Jab hamni pahila baar milni, ta ek second khatir bhi na lagal ki pahila baar milat bani.
+Aisan lagal jaise na jaane ketna saal se ek dusra ke jaant bani.
 
-If i look back and think about everything then it feels like ki universe ne vo sab hamare liye plan kiya tha.
+Aur every moment so pure and magical rahal...
+Hamni ke first hand hold se leke hug aur kiss tak.
+Hamaar heartbeat ta yaad hi hoi tohke, kaise fast fast daudat rahal. 😂❤️
 
-Uske baad ke moments jab ham log ghar gye an time spend kiya. Yr scene tha yr, kitna amazing. Bas tujhe dekhte rehna, teri eyes ko, tere chahre ko. 
+Oo moment jab tu hamaar kandha pe apan sir rakhlu...
+Ham ta pura pagal ho gail rahni.
+Yakeen hi na ho rahl ki ee sab sach me ho rahl baa.
 
-Kuchh to magic kiya hai tune mujhpe.
+Fir hamni ke kiss...
+Wow yaar, ketna pyaara moment rahal.
 
+Kabhi pichhe mud ke sab yaad kareni ta lagela ki universe ee sab pahile se hamni khatir hi plan karke rakhle rahal.
 
-Bas khatam hogya, And sun I LOVE YOU.
+Uske baad jab hamni ghar gaili aur saath me time spend kaili...
+Yaar, alag hi scene rahal.
+Bas tohke dekhte rahe ke man karat rahal...
+Tohar aankh, tohar chehra... sab kuch.
+
+Sach batai...
+Kuchh ta magic kailu baadu hamra upar.
+
+Bas, khatam ho gail.
+
+Aur sun...
+I LOVE YOU. ❤️
 
 And remember...
 
-You are more special to me than words can ever describe and i am always here for you, jab bhi tujhe meri yaad aaye, ya teri man nhi lg rha ho, ya tu pareshan ho ya koi bhi reason ho, main hu yha pe tere paas.
+You are more special to me than words can ever describe.
+Aur ham hamesha tohre saath bani.
+Jab bhi tohke hamaar yaad aave...
+Chahe man na lagat hokhe...
+Chahe tu pareshan hokhu...
+Ya koi bhi wajah hokhe...
+Ham hamesha yahin bani, tohre paas.
 
-I just want ki tu mere saath sab kuchh share kre, mujhe apna bana le. Pyar kre mujhe.
+Bas ham etna chahat bani ki tu hamse sab kuchh share kara.
+Hamke apna bana le.
+Aur dher saara pyar kara.
 
 ❤️
 `;
